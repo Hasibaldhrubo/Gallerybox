@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Gallery Box</title>
+    <style>
+        #gallery{
+            border: 5px solid black;
+            width: 960px;
+            padding: 20px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #box1, #box2, #box3, #box4, #box5, #box6{
+            border: 5px solid red;
+            height: 200px;
+            width: 280px;
+            margin: 10px;
+            padding: 10px;
+        }
+        #gallery img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="gallery">
+        <div id="box1"><img src="images/pic1.jpg" alt="Picture 1"></div>
+        <div id="box2"><img src="images/pic2.jpg" alt="Picture 2"></div>
+        <div id="box3"><img src="images/pic3.jpg" alt="Picture 3"></div>
+        <div id="box4"><img src="images/pic4.jpg" alt="Picture 4"></div>
+        <div id="box5"><img src="images/pic5.jpg" alt="Picture 5"></div>
+        <div id="box6"><img src="images/pic6.jpg" alt="Picture 6"></div>
+    </div>
+</body>
+</html>
